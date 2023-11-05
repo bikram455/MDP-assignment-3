@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:id="@+id/table"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:stretchColumns="1">
+    <TableRow
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/header_text_view"
+            android:text="Table Layout test"
+            android:textSize="24sp"
+            android:gravity="left"
+            android:padding="16dp"
+            android:layout_span="2"
+            android:background="#0827F5"
+            android:textColor="#FFFFFF" />
+    </TableRow>
+    <TableRow
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:layout_span="2"
+            android:id="@+id/androidVersion"
+            android:hint="Enter Android Version"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            >
+        </EditText>
+    </TableRow>
+    <TableRow
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:layout_span="2"
+            android:id="@+id/androidCode"
+            android:hint="Enter Android Code Name"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            >
+        </EditText>
+    </TableRow>
+    <TableRow
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:layout_span="2"
+            android:id="@+id/addAndroidVersion"
+            android:text="Add Android Version"
+            >
+        </Button>
+    </TableRow>
+</TableLayout>
